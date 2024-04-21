@@ -55,5 +55,14 @@ namespace hackerrankbullshit
 			Console.WriteLine("-------------------------------------");
 			Console.WriteLine();
 		}
+
+		public void OutputLong(string funcName, long val)
+		{
+			Console.WriteLine($"Solution for  {funcName}e");
+			Console.WriteLine("-------------------------------------");
+			Console.WriteLine(val);
+			Console.WriteLine("-------------------------------------");
+			Console.WriteLine();
+		}
 	}
 }

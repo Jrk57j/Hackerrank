@@ -10,6 +10,7 @@ namespace hackerrankbullshit
 	{
 		/// <summary>
 		/// Solution for https://www.hackerrank.com/challenges/diagonal-difference/problem
+		/// This literally only works in their IDE. I know why, the first array needs to have 0's populated for it to work.
 		/// </summary>
 		public DiagonalDifference() { }
 

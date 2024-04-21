@@ -36,5 +36,18 @@ class Program
 		
 		CompareTheTriplets ctt = new();
 		bs.OutputIntList(ctt.GetType().Name, ctt.Run());
+
+		AVeryBigSum avbs = new AVeryBigSum();
+		bs.OutputLong(avbs.GetType().Name, avbs.Run());
+
+		StairCase sc = new();
+		sc.Run();
+		Console.WriteLine();
+
+		BirthdayCakeCandles bcc = new();
+		bs.OutputInt(bcc.GetType().Name,  bcc.Run());
+
+		DayOfTheProgrammer dotp = new();
+		bs.OutputString(dotp.GetType().Name, dotp.Run());
 	}
 }
