@@ -13,26 +13,30 @@ namespace hackerrankbullshit
 		/// </summary>
 		public CompareTheTriplets() { }
 
-		public int[] Run()
+		public List<int> Run()
 		{
 			List<int> a = new List<int>() { 17, 28, 30 };
 			List<int> b = new List<int>() { 99, 16, 8 };
-			int[] answerArry = new int[2];
+			List<int> answerArry = new();
 			int aa = 0, bb = 0;
 
-			for (int i = 0; i < a.Count; i++)
+			for(int i = 0; i < a.Count; i++)
 			{
 				if(a[i] > b[i])
 				{
 					aa++;
 				}
-				else
+				else if(b[i] > a[i])
 				{
 					bb++;
 				}
+				else
+				{
+					continue;
+				}
 			}
-			answerArry[0] = aa;
-			answerArry[1] = bb;
+			answerArry.Add(aa);
+			answerArry.Add(bb);
 			return answerArry;
 
 		}

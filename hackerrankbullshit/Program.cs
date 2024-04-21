@@ -34,8 +34,7 @@ class Program
 		ZigZag zz = new();
 		bs.OutputIntList(zz.GetType().Name, zz.Run());
 		
-
 		CompareTheTriplets ctt = new();
-		bs.OutputIntArray(ctt.GetType().Name, ctt.Run());
+		bs.OutputIntList(ctt.GetType().Name, ctt.Run());
 	}
 }
