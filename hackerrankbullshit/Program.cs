@@ -1,4 +1,9 @@
 ﻿using hackerrankbullshit;
+using hackerrankbullshit.Comparison;
+using hackerrankbullshit.Conversions;
+using hackerrankbullshit.Mathy;
+using hackerrankbullshit.Prints;
+using hackerrankbullshit.Sorting;
 using System.Diagnostics.CodeAnalysis;
 using System.Net;
 using System.Runtime.InteropServices;
