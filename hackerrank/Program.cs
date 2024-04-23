@@ -1,6 +1,7 @@
 ﻿using hackerrankbullshit;
 using hackerrankbullshit.Comparison;
 using hackerrankbullshit.Conversions;
+using hackerrankbullshit.Graphs;
 using hackerrankbullshit.Mathy;
 using hackerrankbullshit.Prints;
 using hackerrankbullshit.Sorting;
@@ -54,5 +55,7 @@ class Program
 
 		DayOfTheProgrammer dotp = new();
 		bs.OutputString(dotp.GetType().Name, dotp.Run());
+
+		GraphAlong ga = new();
 	}
 }
