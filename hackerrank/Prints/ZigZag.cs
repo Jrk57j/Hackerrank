@@ -4,7 +4,7 @@ using System.IO;
 using System.Collections;
 using System.Linq;
 
-namespace hackerrankbullshit.Prints
+namespace HackerRank.Prints
 {
     public class ZigZag
     {

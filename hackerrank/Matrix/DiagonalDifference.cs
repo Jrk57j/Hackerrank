@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace hackerrankbullshit.Matrix
+namespace HackerRank.Matrix
 {
     public class DiagonalDifference
     {

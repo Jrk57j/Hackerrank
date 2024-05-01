@@ -1,10 +1,10 @@
-﻿using hackerrankbullshit;
-using hackerrankbullshit.Comparison;
-using hackerrankbullshit.Conversions;
-using hackerrankbullshit.Graphs;
-using hackerrankbullshit.Mathy;
-using hackerrankbullshit.Prints;
-using hackerrankbullshit.Sorting;
+﻿using HackerRank;
+using HackerRank.Comparison;
+using HackerRank.Conversions;
+using HackerRank.Graphs;
+using HackerRank.Mathy;
+using HackerRank.Prints;
+using HackerRank.Sorting;
 using System.Diagnostics.CodeAnalysis;
 using System.Net;
 using System.Runtime.InteropServices;

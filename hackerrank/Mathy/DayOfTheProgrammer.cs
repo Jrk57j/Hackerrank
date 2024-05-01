@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace hackerrankbullshit.Mathy
+namespace HackerRank.Mathy
 {
     /// <summary>
     /// Solution for https://www.hackerrank.com/challenges/day-of-the-programmer/problem

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace hackerrankbullshit.Sorting
+namespace HackerRank.Sorting
 {
     /// <summary>
     /// Solution for https://www.hackerrank.com/challenges/countingsort1/problem

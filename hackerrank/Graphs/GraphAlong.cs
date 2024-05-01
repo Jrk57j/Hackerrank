@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace hackerrankbullshit.Graphs
+namespace HackerRank.Graphs
 {
 	/// <summary>
 	/// code along with https://www.youtube.com/watch?v=tWVWeAqZ0WU&t=1382s

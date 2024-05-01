@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace hackerrankbullshit.Graphs
+namespace HackerRank.Graphs
 {
     public class RoadsAndLibraries
     {
