@@ -57,5 +57,33 @@ class Program
 		bs.OutputString(dotp.GetType().Name, dotp.Run());
 
 		GraphAlong ga = new();
+		Console.WriteLine("Depth first search");
+		ga.DepthFirstSearch("a");
+		Console.WriteLine();
+		Console.WriteLine("Breadth first search");
+		ga.BreadthFirstSearch("a");
+		Console.WriteLine();
+		Console.WriteLine("Recursive DFS");
+		ga.RecursiveDepthFirstSearch("a");
+		Console.WriteLine();
+		Console.WriteLine("Has Path DFS");
+		Console.Write(ga.HasPathDFS("j", "h"));
+		Console.WriteLine();
+		Console.Write(ga.HasPathDFS("j", "f"));
+
+		Console.WriteLine();
+		Console.WriteLine("Has Path BFS");
+		Console.Write(ga.HasPathBFS("j", "h"));
+		Console.WriteLine();
+		Console.Write(ga.HasPathBFS("j", "f"));
+
+		Console.WriteLine();
+		Console.WriteLine("Edge has path");
+		Console.Write(ga.EdgeNodeHasPathDFS("k", "m"));
+		Console.WriteLine();
+		Console.Write(ga.EdgeNodeHasPathDFS("j", "o"));
+
+
+
 	}
 }
