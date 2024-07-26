@@ -5,10 +5,6 @@ using HackerRank.Graphs;
 using HackerRank.Mathy;
 using HackerRank.Prints;
 using HackerRank.Sorting;
-using System.Diagnostics.CodeAnalysis;
-using System.Net;
-using System.Runtime.InteropServices;
-using System.Runtime.Intrinsics.X86;
 
 class Program
 {
@@ -39,7 +35,7 @@ class Program
 
 		ZigZag zz = new();
 		bs.OutputIntList(zz.GetType().Name, zz.Run());
-		
+
 		CompareTheTriplets ctt = new();
 		bs.OutputIntList(ctt.GetType().Name, ctt.Run());
 
@@ -51,7 +47,7 @@ class Program
 		Console.WriteLine();
 
 		BirthdayCakeCandles bcc = new();
-		bs.OutputInt(bcc.GetType().Name,  bcc.Run());
+		bs.OutputInt(bcc.GetType().Name, bcc.Run());
 
 		DayOfTheProgrammer dotp = new();
 		bs.OutputString(dotp.GetType().Name, dotp.Run());
